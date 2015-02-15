@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ```{r global_options}
 knitr::opts_chunk$set(fig.width=12, fig.height=8, fig.path='Figs/')
 ```
@@ -307,3 +308,30 @@ xyplot(days$steps ~ days$interval | days$day,
 ```
 
 In general, the count of steps is seen in more or less the same interval. The peak number of count has shifted right - from weekday to weekend - indicating that the count is higher on later parts of the day. However, the overall count of steps on weekend is lower than that on the week days.
+=======
+---
+title: "Reproducible Research: Peer Assessment 1"
+output: 
+  html_document:
+    keep_md: true
+---
+
+
+## Loading and preprocessing the data
+
+
+
+## What is mean total number of steps taken per day?
+
+
+
+## What is the average daily activity pattern?
+
+
+
+## Imputing missing values
+
+
+
+## Are there differences in activity patterns between weekdays and weekends?
+>>>>>>> 80edf39c3bb508fee88e3394542f967dd3fd3270
